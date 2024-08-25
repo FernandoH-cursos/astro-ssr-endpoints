@@ -1,5 +1,8 @@
 ---
 import Layout from '../layouts/BlogPost.astro';
+
+//* Habilita el SSG en esta pagina cuando está en modo "server", es decir, esta pagina se genera de forma estática y no el servidor
+export const prerender = true;
 ---
 
 <Layout
